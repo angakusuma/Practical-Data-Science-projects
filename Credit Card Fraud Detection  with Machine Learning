@@ -1,0 +1,17 @@
+As the number of credit card transactions keeps growing and represents an increasing share of the 
+European payment system. Leading to several stolen account numbers and subsequent losses to banks, 
+also people believed that credit card transaction fraud is a growing threat with severe implications for 
+the financial industry. Data mining plays a crucial role in detecting credit card fraud in both online and 
+offline transactions. Credit card fraud detection which is a data mining problem becomes challenging 
+for two main reasons. First, the characteristics of normal and fraudulent behavior are continually 
+changing, and second, the credit card fraud dataset is highly asymmetric. The performance of fraud 
+detection in credit card transactions is greatly affected by the sampling method of the dataset and the 
+choice of variables and the detection techniques used. This paper investigates the performance of 
+logistic regression (LR), k-nearest-neighbor (KNN), naive bayes, Random Forest, Decision Tree (DT) 
+and on credit card fraud data. The dataset of credit card transactions obtained from European cardholders 
+contains 284,807 transactions. A mixture of under-sampling and over-sampling techniques applied to 
+the unbalanced data. The five strategies were used to the raw and pre- processed data, respectively. 
+This work is implemented in Python. The performance of the methods was evaluated based on accuracy, 
+sensitivity, specificity, precision and recall rate. The results are shown in comparison. After cross
+validation, the accuracy of the best classification algorithm model in, k nearest neighbor, naïve bayes, 
+Random Forest, logistic regression and is 97.92% which using the over-sampling model.
